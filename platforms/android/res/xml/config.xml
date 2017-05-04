@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Daily News</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="di.star@foxmail.com" href="https://stardee.github.io">
+        StarDee
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/android/icon/drawable-ldpi-icon.png" />
+    <icon density="mdpi" src="res/android/icon/drawable-mdpi-icon.png" />
+    <icon density="hdpi" src="res/android/icon/drawable-hdpi-icon.png" />
+    <icon density="xhdpi" src="res/android/icon/drawable-xhdpi-icon.png" />
+    <icon density="xxhdpi" src="res/android/icon/drawable-xxhdpi-icon.png" />
+    <icon density="xxxhdpi" src="res/android/icon/drawable-xxxhdpi-icon.png" />
+    <splash density="land-hdpi" src="res/android/screen/splash-land-hdpi.png" />
+    <splash density="land-ldpi" src="res/android/screen/splash-land-ldpi.png" />
+    <splash density="land-mdpi" src="res/android/screen/splash-land-mdpi.png" />
+    <splash density="land-xhdpi" src="res/android/screen/splash-land-xhdpi.png" />
+    <splash density="port-hdpi" src="res/android/screen/splash-port-hdpi.png" />
+    <splash density="port-ldpi" src="res/android/screen/splash-port-ldpi.png" />
+    <splash density="port-mdpi" src="res/android/screen/splash-port-mdpi.png" />
+    <splash density="port-xhdpi" src="res/android/screen/splash-port-xhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreenDuration" value="800" />
+</widget>
